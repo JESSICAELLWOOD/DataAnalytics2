@@ -16,11 +16,12 @@ clf = tree.DecisionTreeClassifier()
 # get classifiers: http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
 
 #1
-clf1 = AdaBoostClassifier()
+clf1 = GaussianNB()
 #2
 clf2 = KNeighborsClassifier(n_neighbors=3)
 #3
-clf3 = QuadraticDescriminatAnalysis()
+clf3 = SVC()
+
 #[height, weight, shoe_size]
 X = [[181, 80, 44], [177, 70, 43], [160, 60, 38], [154, 54, 37], [166, 65, 40], [190, 90, 47], [175, 64, 39],
      [177, 70, 40], [159, 55, 37], [171, 75, 42], [181, 85, 43]]
