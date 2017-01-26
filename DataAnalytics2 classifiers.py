@@ -16,7 +16,7 @@ clf = tree.DecisionTreeClassifier()
 # get classifiers: http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
 
 #1
-clf1 = GaussianNB()
+clf1 = AdaBoostClassifier()
 #2
 clf2 = KNeighborsClassifier(n_neighbors=3)
 #3
