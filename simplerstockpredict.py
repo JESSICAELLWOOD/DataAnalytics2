@@ -47,4 +47,6 @@ get_data('aapl.csv') # calling get_data method by passing the csv file to it
 #print "Dates- ", dates
 #print "Prices- ", prices
 
+
+
 predicted_price = predict_price(dates, prices, 29) 
