@@ -71,10 +71,10 @@ score3 = accuracy_score(Y_true, prediction3)
 #print("Best score: \n  " + str(best_score))
 
 classifier_(names) = {'tree': score, 'GaussianNB': score1, 'KNeighborsClassifier': score2, 'SVC': score3}
-print classifier_names
-print score 
-print score2
-print score3
+print (classifier_names)
+(print score)
+(print score2)
+(print score3)
 #best_scoring_classifiers = [name for name in classifier_names if classifier_names[name] == best_score]
 #print("Best scorer(s): ")
 #for best_scorers in best_scoring_classifiers: print("  "+best_scorers)
