@@ -71,7 +71,7 @@ score3 = accuracy_score(Y_true, prediction3)
 #print("Best score: \n  " + str(best_score))
 
 classifier_names = {'tree': score, 'GaussianNB': score1, 'KNeighborsClassifier': score2, 'SVC': score3}
-print classifier_names
+print (classifier_names)
 print score 
 print score2
 print score3
