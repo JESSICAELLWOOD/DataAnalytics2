@@ -24,8 +24,8 @@ clf3 = SVC()
 
 #[height, weight, shoe_size]
 X = [[181, 80, 44], [177, 70, 43], [160, 60, 38], [154, 54, 37], [166, 65, 40], [190, 90, 47], [175, 64, 39],
-     [177, 70, 40], [159, 55, 37], [171, 75, 42], [181, 85, 43]]
 
+     [177, 70, 40], [159, 55, 37], [171, 75, 42], [181, 85, 43]]
 Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female', 'female', 'male', 'male']
 
 #_________________________________________________
@@ -70,11 +70,11 @@ score3 = accuracy_score(Y_true, prediction3)
 #best_score = max(score,score1,score2,score3)
 #print("Best score: \n  " + str(best_score))
 
-classifier_(names) = {'tree': score, 'GaussianNB': score1, 'KNeighborsClassifier': score2, 'SVC': score3}
-print (classifier_names)
-print (score1)
-print (score2)
-print (score3)
+classifier_names = {'tree': score, 'GaussianNB': score1, 'KNeighborsClassifier': score2, 'SVC': score3}
+print classifier_names
+print score 
+print score2
+print score3
 #best_scoring_classifiers = [name for name in classifier_names if classifier_names[name] == best_score]
 #print("Best scorer(s): ")
 #for best_scorers in best_scoring_classifiers: print("  "+best_scorers)
