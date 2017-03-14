@@ -25,9 +25,9 @@ prices = []
 
 
 
-def get_data(Google finance apple):
+def get_data(Google_Finance_Apple):
 
-	with open(Google finance apple, 'r') as csvfile:
+	with open(Google_Finance_Apple, 'r') as csvfile:
 
 		csvFileReader = csv.reader(csvfile)
 
